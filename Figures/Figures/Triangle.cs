@@ -1,6 +1,6 @@
 ﻿namespace Figures
 {
-    public class Triangle : AbstrackFigure
+    public class Triangle : AbstractFigure
     {
         private readonly decimal a;
         private readonly decimal b;
