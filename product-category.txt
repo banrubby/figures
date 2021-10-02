@@ -1,0 +1,14 @@
+[product]
+id
+productName
+
+[categody]
+id
+categoryName
+
+[product-category]
+productId
+categoryId
+
+select p.productName, (select categoryName from category c where c.id = pc.categoryId)  from product p
+left join "product-category" pc on p.id = pc.productId
