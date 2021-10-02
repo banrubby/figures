@@ -1,6 +1,6 @@
 ﻿namespace Figures
 {
-    public class Circle : AbstrackFigure
+    public class Circle : AbstractFigure
     {
         private readonly decimal radius;
 

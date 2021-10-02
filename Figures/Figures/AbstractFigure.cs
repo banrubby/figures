@@ -1,6 +1,6 @@
 ﻿
 namespace Figures;
-public abstract class AbstrackFigure
+public abstract class AbstractFigure
 {
     public abstract string Name { get; }
 
